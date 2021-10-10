@@ -1,0 +1,5 @@
+/node_modules/
+/scripts/
+/public/
+
+.DS_Store
