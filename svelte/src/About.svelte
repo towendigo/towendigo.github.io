@@ -96,10 +96,20 @@
 @use 'styles/main' ;
 
 /* style */
+#About{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
 section{
-    min-width: 50%;
+    transition: all 0.4s ease;
     width: 100%;
     padding: 3rem 1rem;
+
+    /* Delete maybe*/
+    
 
     h1, h3, p{
         margin: 0.5rem;
@@ -125,13 +135,17 @@ section{
     p.secret{
         width: 100%;
         margin-right: auto;
+        background: linear-gradient(to top, main.$main-color1 30%, main.$purple );
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
 
         font-size: 2.4rem;
         font-weight: 900;
         font-style: italic;
         letter-spacing: 0.2rem;
         
-        opacity: 0.1;
+        opacity: 0.2;
     }
 }
 
@@ -151,7 +165,15 @@ section{
     }
 }
 
+@media only screen and (min-width: 1030px) { 
+    section{
+        max-width: 45%;
+        margin: 0 1rem;
+    }
+}
+@media only screen and (min-width: 515px) { 
 
+}
 
 
 
