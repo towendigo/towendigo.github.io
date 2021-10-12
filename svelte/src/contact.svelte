@@ -49,9 +49,10 @@
 
 footer{
     width: 100vw;
-
-    position: absolute;
-    top: 100%;
+    background: main.$main-color2;
+    
+    position: fixed;
+    top: 100vh;
     left: 120%;
     transform: translate(-120%, -2rem);
     transition: transform 0.4s ease ;

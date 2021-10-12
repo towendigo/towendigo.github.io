@@ -27,7 +27,7 @@
 
 <header>
     <div class="content">
-        <a href="/"><h1>Akif Sahin Korkmaz</h1></a>
+        <a href="/"><h2>Akif Sahin Korkmaz</h2></a>
         
         <div class="navigation">
             <nav>
@@ -51,7 +51,6 @@
 
 /* style */
 header{
-    
     width: 100vw;
     height: 8vh;
     max-height: 100px;
@@ -67,6 +66,7 @@ header{
     max-height: 100px;
 
     position: relative;
+    z-index: 2;
     margin: auto;
     padding: 0.8rem 10%;
 
@@ -143,6 +143,7 @@ nav ul{
     width: 100%;
 
     display: flex;
+    justify-content: center;
     align-items: center;
 
     list-style: none;
@@ -180,7 +181,7 @@ li > h4 + h4:hover{
 
 
 @media only screen and (min-width: 1030px) { 
-    .content h1{
+    .content h2{
         white-space: nowrap;
     }
     .navigation {
