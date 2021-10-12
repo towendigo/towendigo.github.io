@@ -14,26 +14,27 @@
 
         </div>
     </section>
-    <section id="interests">
+    <section id="lans">
         <p class="secret">
-            #MyInterests
+            #Languages
         </p>
         <div class="content">
-            <h1>I Am Interested In ~</h1>
-            <h3>Programming</h3>
-            <p class="b">I like learning new technologies, using them in projects. I really like seeing something i contributed live. I also like solving problems. That sums up my interest in programming. </p>
+            <h1>I Speak ~</h1>
+            <h3>Turkish</h3>
+            <p class="b">I am a native Turkish speaker.</p>
             
-            <h3>Music</h3>
-            <p class="b">I am a big fan of music. Also play guitar. My music taste varies between today's pop and 70s' rock.</p>
-
-            <h3>Animals</h3>
-            <p class="b">I love animals, specifically cats. I am a volunteer stray animal feeder.</p>
-
+            <h3>English</h3>
+            <p class="b">I speak English since high-school. I have advanced verbal and communicational skills in English.</p>
+            
+            <h3>Russian</h3>
+            <p class="b">I am a beginner in Russian.</p>
+            
+            
         </div>
     </section>
     <section id="edu">
         <p class="secret">
-            #MyEducation
+            #Education
         </p>
         <div class="content">
             <h1>I Attended ~</h1>
@@ -50,7 +51,24 @@
                 <li><p class="b">Worked about same micro-mobility project in Gazi University Technology Transfer Office.</p></li>             
                 <li><p class="b">Freelanced as a full stack web developer.</p></li>                     
             </ul>
- 
+            
+        </div>
+    </section>
+    <section id="interests">
+        <p class="secret">
+            #MyInterests
+        </p>
+        <div class="content">
+            <h1>I Am Interested In ~</h1>
+            <h3>Programming</h3>
+            <p class="b">I like learning new technologies, using them in projects. I really like seeing something i contributed live. I also like solving problems. That sums up my interest in programming. </p>
+            
+            <h3>Music</h3>
+            <p class="b">I am a big fan of music. Also play guitar. My music taste varies between today's pop and 70s' rock.</p>
+
+            <h3>Animals</h3>
+            <p class="b">I love animals, specifically cats. I am a volunteer stray animal feeder.</p>
+
         </div>
     </section>
     <section id="cv">
@@ -97,7 +115,12 @@ section{
         margin-bottom: 2rem;
     }
     ul{
-        padding-left: 2rem;
+        padding-left: 1.5rem;
+        margin: 0.5rem;
+        margin-bottom: 2rem;
+        *{
+            margin: 0.4rem 0;
+        }
     }
     p.secret{
         width: 100%;
